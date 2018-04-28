@@ -9,6 +9,9 @@ The navigation buttons are activated after the user loaded second web page.
 The project was done with the instructions of Prof. Song Ho Ahn in Sheridan College.
 
 Program Name: Web Browser application (Spring theme)
+
 Author Name: SeungChan Kim
+
 Created On: Mar-19-2018
+
 Updated On: Mar-30-2018
