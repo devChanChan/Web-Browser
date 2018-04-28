@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chan.FXMLDocumentController">
+   <children>
+      <TextField fx:id="textUrl" layoutX="83.0" layoutY="8.0" onAction="#handleGo" prefHeight="31.0" prefWidth="1146.0" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="71.0" />
+      <Button id="buttonGo" layoutX="740.0" layoutY="8.0" mnemonicParsing="false" onAction="#handleGo" prefHeight="30.0" prefWidth="48.0" text="GO" AnchorPane.rightAnchor="10.0" />
+      <WebView id="webView" fx:id="webView" layoutX="6.0" layoutY="53.0" prefHeight="597.0" prefWidth="1300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="53.0" />
+      <Button id="buttonPrev" fx:id="prev" layoutX="12.0" layoutY="10.0" mnemonicParsing="false" onAction="#prev" text="&lt;" />
+      <Button id="buttonNext" fx:id="next" layoutX="46.0" layoutY="10.0" mnemonicParsing="false" onAction="#next" text="&gt;" />
+   </children>
+</AnchorPane>

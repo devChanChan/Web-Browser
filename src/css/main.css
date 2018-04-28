@@ -1,0 +1,29 @@
+/*
+ * main.css
+ * ============
+ * A css file to configure and change styles of web browser 
+ *  AUTHOR: SEUNG CHAN KIM (kimseu@sheridancollege.ca)
+ * CREATED: 2018-03-16
+ * UPDATED: 2018-03-30
+ */
+
+/* set the color of border of 'Go' button */
+#buttonGo {
+    /*-fx-border-color: blueviolet;*/
+}
+
+/* set the opacity of webview */
+#webView {
+    -fx-opacity: 0;
+}
+
+/* set the background image of the web browser */
+#AnchorPane {
+    -fx-background-image:url("/image/background.png");
+}
+
+/* set the color of border and background color of 'prev' and 'next' buttons */ 
+#buttonPrev, #buttonNext {
+    /*-fx-border-color: red;*/
+    -fx-background-color: grey;
+}
